@@ -16,3 +16,7 @@ print(d.Devide(10,20))
 print()
 print(issubclass(Derived,Calculation2))
 print(issubclass(Calculation1,Calculation2))
+
+#The isinstance (obj, class) method
+print()
+print(isinstance(d,Derived))
