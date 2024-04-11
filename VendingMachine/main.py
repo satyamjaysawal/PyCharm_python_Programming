@@ -8,7 +8,7 @@ class VendingMachine:
         print("Welcome to the Vending Machine!")
         print("Items available:")
         for item, price in self.items.items():
-            print(f"- {item.capitalize()}: ₹{price}")
+            print(f"- {item.capitalize()}: Rs. {price}")
         print("\nCoins accepted: 10 rupees, 5 rupees, 2 rupees, 1 rupee")
         print("To select an item, enter its name. To exit, type 'exit'.")
 
