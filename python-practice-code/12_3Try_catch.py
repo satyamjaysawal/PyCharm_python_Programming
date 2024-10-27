@@ -21,3 +21,4 @@ except ZeroDivisionError:
     print("ZeroDivisionError Occurred and Handled")
 except NameError:
     print("NameError Occurred and Handled")
+
